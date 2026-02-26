@@ -3,11 +3,278 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Redirecting...</title>
-  <meta http-equiv="refresh" content="0; url=privacy-policy.html" />
+  <title>Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #0f766e;
+      --accent-soft: #ccfbf1;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #f0fdfa 0%, var(--bg) 220px);
+      line-height: 1.75;
+    }
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      box-shadow: 0 6px 24px rgba(15, 23, 42, 0.06);
+      overflow: hidden;
+    }
+    .head {
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.3rem;
+    }
+    .controls {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+    .doc-toggle {
+      display: inline-flex;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      overflow: hidden;
+      background: #fff;
+    }
+    .doc-btn {
+      border: 0;
+      background: transparent;
+      padding: 8px 14px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      cursor: pointer;
+    }
+    .doc-btn.active {
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .lang-wrap {
+      display: inline-flex;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      overflow: hidden;
+      background: #fff;
+    }
+    .lang-select {
+      border: 0;
+      background: transparent;
+      padding: 8px 14px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      cursor: pointer;
+      outline: none;
+    }
+    .content { padding: 20px; }
+    .muted { color: var(--muted); font-size: 0.95rem; }
+    h2 { margin: 24px 0 10px; font-size: 1.05rem; }
+    p { margin: 0 0 12px; }
+    .hidden { display: none; }
+    a { color: #0f766e; }
+  </style>
 </head>
 <body>
-  <p>Redirecting to Privacy Policy...</p>
-  <p>If not redirected, open <a href="privacy-policy.html">privacy-policy.html</a>.</p>
+  <main class="wrap">
+    <section class="card">
+      <header class="head">
+        <h1 id="page-title">Privacy Policy</h1>
+        <div class="controls">
+          <div class="doc-toggle" aria-label="Document switch">
+            <button class="doc-btn" id="doc-user" type="button">User Agreement</button>
+            <button class="doc-btn active" id="doc-privacy" type="button">Privacy Policy</button>
+          </div>
+          <div class="lang-wrap">
+            <select id="lang-select" class="lang-select" aria-label="Language">
+              <option value="en">English</option>
+              <option value="zh">Chinese</option>
+            </select>
+          </div>
+        </div>
+      </header>
+
+      <article class="content">
+        <div id="privacy-en">
+          <p class="muted">Effective Date: February 26, 2026</p>
+          <p>This app respects and protects the privacy of all users. To provide more accurate and personalized services, we will use and disclose your personal information in accordance with this Privacy Policy. Except as otherwise provided in this policy, we will not disclose or provide this information to third parties without your prior permission.</p>
+          <p>By agreeing to the Application Services Use Agreement, you are deemed to have agreed to this entire Privacy Policy. This policy is an integral part of the Application Service Agreement.</p>
+          <h2>1. Scope of Application</h2>
+          <p>(a) Personal registration information you provide when registering an account.</p>
+          <p>(b) Information automatically received and recorded when you use services, including but not limited to IP address, browser type, language, access date/time, hardware/software information, and webpage records.</p>
+          <p>(c) Personal data obtained from business partners through legal means.</p>
+          <p>The following information is not subject to this policy: search keywords you enter, activity/transaction/evaluation information collected by you, and information related to legal violations or rule breaches.</p>
+          <p>Third-Party Services: <a href="https://support.google.com/admob/answer/6128543?hl=zh-Hans" target="_blank" rel="noopener noreferrer">ADMob</a>, <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
+          <h2>2. Information Use</h2>
+          <p>(a) We do not provide, sell, rent, share, or trade your personal information to unrelated third parties unless we have your prior permission or it is required for service delivery with relevant partners.</p>
+          <p>(b) We do not allow any third party to collect, edit, sell, or distribute your personal information by any means. We may terminate service for users who violate this rule.</p>
+          <p>(c) We may use your information to provide content of interest, including product and service messages. Sharing with partners for related messages requires your prior consent.</p>
+          <h2>3. Information Disclosure</h2>
+          <p>We may disclose personal information in whole or part under the following circumstances: with your prior consent; when required to provide requested products/services; as required by law or by administrative/judicial authorities; for violations of applicable laws or service rules; for dispute resolution in valid IP complaints; to help complete transactions or resolve disputes; or other lawful disclosures we consider appropriate.</p>
+          <h2>4. Information Storage and Transfer</h2>
+          <p>Information collected may be stored on servers operated by us and/or affiliates and may be transferred to, accessed, stored, and displayed in locations outside your country or region.</p>
+          <h2>5. Use of Cookies</h2>
+          <p>(a) If you accept cookies, we may set or access cookies to support login and cookie-based features, including personalized services.</p>
+          <p>(b) You may refuse cookies through browser settings, but some services/features may become unavailable.</p>
+          <p>(c) This policy applies to information obtained through cookies used by this app.</p>
+          <h2>6. Information Security</h2>
+          <p>(a) Please keep your account credentials secure. We use security measures, including password encryption, to protect your information from loss, misuse, or alteration.</p>
+          <p>(b) No security system is absolutely perfect. When conducting online transactions, please protect personal information and share only when necessary.</p>
+          <h2>7. Changes to This Policy</h2>
+          <p>(a) If we change this policy, we will publish updates in this policy, on the website, or in other appropriate locations.</p>
+          <p>(b) We reserve the right to modify this policy at any time. Please review it regularly. For material changes, we will notify you via website notice. If account information such as username/password is leaked, please contact customer service immediately.</p>
+        </div>
+
+        <div id="privacy-zh" class="hidden">
+          <p class="muted">生效日期：2026年2月26日</p>
+          <p>本应用尊重并保护所有使用服务用户的隐私。为向您提供更准确、个性化的服务，我们将按照本隐私政策使用和披露您的个人信息。除本政策另有规定外，未经您事先许可，本应用不会向第三方披露或提供您的个人信息。</p>
+          <p>您同意《应用服务使用协议》即视为同意本隐私政策全部内容。本隐私政策是《应用服务协议》的组成部分。</p>
+          <h2>1. 适用范围</h2>
+          <p>（a）您在注册本应用账户时，根据要求提供的个人注册信息。</p>
+          <p>（b）您使用本应用网络服务或访问平台网页时，系统自动接收并记录的信息，包括但不限于 IP 地址、浏览器类型、使用语言、访问日期和时间、软硬件特征信息及网页记录等。</p>
+          <p>（c）本应用通过合法途径从业务合作伙伴处取得的用户个人数据。</p>
+          <p>以下信息不适用于本隐私政策：您输入的搜索关键词、您在应用内发布或参与活动形成的信息（含交易和评价信息）、以及违反法律法规或本应用规则的相关信息。</p>
+          <p>第三方服务：<a href="https://support.google.com/admob/answer/6128543?hl=zh-Hans" target="_blank" rel="noopener noreferrer">ADMob</a>、<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google 隐私政策</a>。</p>
+          <h2>2. 信息使用</h2>
+          <p>（a）除非事先获得您的授权，或为提供服务需要与相关合作方协作，否则本应用不会向无关第三方提供、出售、出租、分享或交易您的个人信息。</p>
+          <p>（b）本应用不允许任何第三方以任何方式收集、编辑、出售或传播您的个人信息。若发现相关行为，本应用有权立即终止与该用户的服务协议。</p>
+          <p>（c）为服务用户，本应用可能使用您的信息向您提供您感兴趣的信息（含产品及服务信息）；与合作方共享前将依法取得您的授权同意。</p>
+          <h2>3. 信息披露</h2>
+          <p>在以下情形下，本应用可依据您的意愿或法律规定披露您的个人信息：经您事先同意；为提供您所要求的产品或服务；依据法律法规或行政/司法机关要求；您违反相关法律法规或服务规则；处理知识产权投诉及争议；为促成交易或解决争议所需；以及其他依法合规且本应用认为适当的披露情形。</p>
+          <h2>4. 信息存储与交换</h2>
+          <p>本应用收集的信息和资料可能存储于本应用及/或其关联方服务器，并可能被传输至您所在国家或地区之外进行访问、存储和展示。</p>
+          <h2>5. Cookie 的使用</h2>
+          <p>（a）若您接受 Cookie，本应用可能在您的设备上设置或读取 Cookie，以便您登录或使用依赖 Cookie 的服务和功能，并提供个性化服务。</p>
+          <p>（b）您可通过浏览器设置拒绝 Cookie，但可能无法使用部分依赖 Cookie 的服务或功能。</p>
+          <p>（c）通过本应用 Cookie 获取的信息同样适用本政策。</p>
+          <h2>6. 信息安全</h2>
+          <p>（a）请妥善保管账户及密码信息。本应用将通过包括密码加密在内的安全措施保护您的信息，防止丢失、滥用和篡改。</p>
+          <p>（b）请理解信息网络不存在绝对安全。进行在线交易时，请仅在必要时向他人提供个人信息并注意保护。</p>
+          <h2>7. 本隐私政策的变更</h2>
+          <p>（a）如本政策发生变更，我们将通过本政策页面、网站或其他适当位置发布更新内容。</p>
+          <p>（b）本公司保留随时修改本政策的权利，请定期查阅。若发生重大变更，我们将通过网站公告通知。如您发现账户用户名或密码等信息泄露，请立即联系客服以便采取相应措施。</p>
+        </div>
+
+        <div id="user-en" class="hidden">
+          <p class="muted">Effective Date: February 26, 2026</p>
+          <p>With Apple subscription, the system will deduct the corresponding amount from your App Store account when you confirm your purchase.</p>
+          <p>If you do not turn off automatic renewal at least 24 hours before the end of the current subscription period, the system will automatically charge you at the beginning of the next subscription period.</p>
+          <p>After purchase, you can manage your subscription and automatic renewal settings in your account settings.</p>
+          <p>Management path: Settings &gt;&gt; User Options &gt;&gt; Subscribe, then select the corresponding item to modify or cancel.</p>
+        </div>
+
+        <div id="user-zh" class="hidden">
+          <p class="muted">生效日期：2026年2月26日</p>
+          <p>通过 Apple 订阅服务购买时，在您确认购买后，系统将从您的 App Store 账户中扣除相应费用。</p>
+          <p>若您未在当前订阅周期结束前至少 24 小时关闭自动续费，系统将在下一订阅周期开始时自动扣费。</p>
+          <p>购买完成后，您可在账户设置中管理订阅及自动续费。</p>
+          <p>管理路径：设置 &gt;&gt; 用户选项 &gt;&gt; 订阅，选择对应项目进行修改或取消。</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var docParam = params.get('doc');
+      var currentDoc = docParam === 'user' ? 'user' : 'privacy';
+      var currentLang = 'en';
+
+      var pageTitle = document.getElementById('page-title');
+      var langSelect = document.getElementById('lang-select');
+      var docUserBtn = document.getElementById('doc-user');
+      var docPrivacyBtn = document.getElementById('doc-privacy');
+
+      var blocks = {
+        privacy: {
+          en: document.getElementById('privacy-en'),
+          zh: document.getElementById('privacy-zh')
+        },
+        user: {
+          en: document.getElementById('user-en'),
+          zh: document.getElementById('user-zh')
+        }
+      };
+
+      var i18n = {
+        en: {
+          user: 'User Agreement',
+          privacy: 'Privacy Policy',
+          langEn: 'English',
+          langZh: 'Chinese'
+        },
+        zh: {
+          user: '用户协议',
+          privacy: '隐私协议',
+          langEn: '英文',
+          langZh: '中文'
+        }
+      };
+
+      function render() {
+        var langText = i18n[currentLang];
+
+        docUserBtn.textContent = langText.user;
+        docPrivacyBtn.textContent = langText.privacy;
+        langSelect.querySelector('option[value="en"]').textContent = langText.langEn;
+        langSelect.querySelector('option[value="zh"]').textContent = langText.langZh;
+        langSelect.value = currentLang;
+
+        docUserBtn.classList.toggle('active', currentDoc === 'user');
+        docPrivacyBtn.classList.toggle('active', currentDoc === 'privacy');
+
+        blocks.privacy.en.classList.add('hidden');
+        blocks.privacy.zh.classList.add('hidden');
+        blocks.user.en.classList.add('hidden');
+        blocks.user.zh.classList.add('hidden');
+
+        blocks[currentDoc][currentLang].classList.remove('hidden');
+
+        pageTitle.textContent = currentDoc === 'user' ? langText.user : langText.privacy;
+        document.title = pageTitle.textContent;
+        document.documentElement.lang = currentLang;
+      }
+
+      docUserBtn.addEventListener('click', function () {
+        currentDoc = 'user';
+        render();
+      });
+
+      docPrivacyBtn.addEventListener('click', function () {
+        currentDoc = 'privacy';
+        render();
+      });
+
+      langSelect.addEventListener('change', function (event) {
+        currentLang = event.target.value;
+        render();
+      });
+
+      render();
+    })();
+  </script>
 </body>
 </html>

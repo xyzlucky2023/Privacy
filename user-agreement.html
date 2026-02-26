@@ -62,6 +62,34 @@
       background: #fff;
     }
 
+    .controls {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .doc-toggle {
+      display: inline-flex;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .doc-link {
+      text-decoration: none;
+      padding: 8px 14px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .doc-link.active {
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 600;
+    }
+
     .lang-btn {
       border: 0;
       background: transparent;
@@ -95,9 +123,15 @@
     <section class="card">
       <header class="head">
         <h1>User Agreement / 用户协议</h1>
-        <div class="lang-toggle" role="tablist" aria-label="Language">
-          <button class="lang-btn active" id="btn-en" data-lang="en" type="button">English</button>
-          <button class="lang-btn" id="btn-zh" data-lang="zh" type="button">中文</button>
+        <div class="controls">
+          <nav class="doc-toggle" aria-label="Document switch">
+            <a class="doc-link active" href="user-agreement.html">User Agreement</a>
+            <a class="doc-link" href="privacy-policy.html">Privacy Policy</a>
+          </nav>
+          <div class="lang-toggle" role="tablist" aria-label="Language">
+            <button class="lang-btn active" id="btn-en" data-lang="en" type="button">English</button>
+            <button class="lang-btn" id="btn-zh" data-lang="zh" type="button">中文</button>
+          </div>
         </div>
       </header>
       <article class="content">
